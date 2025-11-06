@@ -34,15 +34,12 @@ El siguiente modelo matemático de tres EDOs de primer orden es un modelo mecani
 
 Con respecto a los parámetros, X0 refleja la cantidad absoluta de células que se destinan al linaje eritroide y que maduran en el primer compartimento de células precursoras eritroides. Las tasas de transición y las tasas de mortalidad entre los compartimentos están dadas por k1, k2 y alpha, estas tasas son independientes de la hormona eritropoyetina. La compensación de la pérdida de sangre se describe mediante un término de retroalimentacién de los eritrocitos a las células en proliferación basado en la pérdida fraccional de eritrocitos. Con base en lo anterior, se introducen los parámetros beta y gamma, que se utilizan para la descripción de las características individuales de la eritropoyesis. Se asume que cada individuo tiene un recuento medio de eritrocitos indicado por el parámetro Base. 
 
-Condiciones iniciales 
-x1_0 = 
-   58.2837   56.9020   56.3817   56.8495   57.1793   60.1951   58.3125   60.1429   57.8993   60.2531
-x2_0 = 
-   43.4658   42.4354   42.0474   42.3962   42.6422   44.8912   43.4873   44.8523   43.1791   44.9345
-x3_0 = 
-  874.2552  853.5304  845.7259  852.7427  857.6893  902.9258  874.6877  902.1438  868.4890  903.7969
+## Condiciones iniciales 
+x1_0 = 58.2837,   56.9020,   56.3817,   56.8495,   57.1793,   60.1951,   58.3125,   60.1429,   57.8993,   60.2531
+x2_0 = 43.4658,   42.4354, 42.0474,   42.3962,   42.6422,   44.8912,   43.4873,   44.8523,   43.1791,   44.9345
+x3_0 = 874.2552,  853.5304,  845.7259,  852.7427,  857.6893, 902.9258, 874.6877,  902.1438,  868.4890,  903.7969
 
-Parámetros de beta y gamma
+## Parámetros de beta y gamma
 gamma = [0.769, 0.388, 0.510, 0.590, 0.262, 0.324, 0.356, 0.089, 0.243, 0.057]
 beta = [1.650, 0.867, 1.617, 2.615, 1.518, 2.676, 0.891, 2.557, 0.925, 0.089]
 
