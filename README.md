@@ -24,8 +24,9 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Objetivos
 
-1. Resolver el sistema de EDOs (5.1)-(5.3) mediante el método de Euler (diferencias finitas).
-2. Considerar el caso de transfusión sanguínea del individuo mediante la siguiente función:
+1. Resolver el sistema de EDOs mediante el método de Euler (diferencias finitas).
+2. Graficar sistema de EDOs en MATLAB.
+3. Considerar el caso de transfusión sanguínea del individuo mediante la siguiente función:
 
 ## Descripción detallada del sistema
 
